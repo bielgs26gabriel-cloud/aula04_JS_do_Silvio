@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App Tarefa</title>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="center">Tarefas</h1>
+        <p class="center">Organizando seu dia!!</p>
+
+        <ul class="center">
+            <li>
+                <i class="small material-icons">event_note</i>
+                Tarefa Importante!!
+            </li>
+            <li>Não esqueça !!!</li>
+        </ul>
+
+
+        <p>Titulo: </p><input type="text" class="campoTitulo" />
+        <p>Observações: </p> <input type="text" class="campoOBS" />
+        <div class="divBotão">
+            <a id="botão" class="btn-floating btn-large waver-effect waver-light red">
+                <i class="material-icons">arrow_downward</i>
+            </a>
+        </div>
+        <section class="tarefas">
+            <table class="highlight">
+                <thead>
+                    <tr>
+                        <th>Tarefa</th>
+                        <th>Observações</th>
+                        <th>Apaga</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </section>
+    </div>
+    <script src="js/jquery-4.0.0.min.js"></script>
+</body>
+
+</html>
